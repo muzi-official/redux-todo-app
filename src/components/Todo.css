@@ -1,0 +1,96 @@
+.container {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px !important;
+  text-align: center;
+  padding: 100px;
+  border-radius: 10px;
+  background-color: rgba(252, 240, 240, 0.863);
+}
+
+h1 {
+  margin-top: -80px;
+  font-size: 24px;
+  font-weight: 600;
+  color: rgb(78, 113, 228);
+}
+
+.todo_section {
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  padding: 5px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(78, 113, 228);
+}
+
+.todo_section input {
+  font-size: 17px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(78, 113, 228);
+  border: none;
+}
+
+.todo_section button {
+  cursor: pointer;
+  font-size: 25px;
+  font-size: 25px;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  background-color: rgb(78, 113, 228);
+  border: none;
+}
+
+.button,
+input {
+  outline: none !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.button,
+input,
+.button:hover,
+input:hover,
+.button:active,
+input:active,
+input:focus,
+.button:focus {
+  outline: none !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.del-all {
+  padding: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(78, 113, 228);
+  border: none;
+  border-radius: 5px;
+}
+
+.todo_item {
+  margin-top: 15px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(78, 113, 228);
+  display: flex;
+  align-items: center;
+  padding-left: 5px;
+  border-radius: 5px;
+  padding-right: 5px;
+  justify-content: space-between;
+}
+
+.todo_item p {
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+}
+
+.todo_item button {
+  cursor: pointer;
+  border: none;
+  font-size: 25px;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  background-color: rgb(78, 113, 228);
+}

@@ -1,0 +1,13 @@
+* {
+  scroll-behavior: smooth;
+  font-family: cursive;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(252, 240, 240, 0.863);
+}
